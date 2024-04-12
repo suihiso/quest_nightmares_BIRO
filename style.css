@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: rgb(115, 36, 36);
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: rgb(32, 3, 3);
+}
+input{
+    outline:none;
+}
+input::-moz-placeholder{
+    color: rgb(116, 51, 51);
+}
+input::-webkit-input-placeholder{
+    color: rgb(116, 51, 51);
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(32, 3, 3);
+}
+.header p{
+    color: rgb(226, 208, 208);
+    font: calc(18px + 1vw) sans-serif;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* MAIN */
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+.mainTextQuestion{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: rgb(226, 208, 208);
+    font: calc(14px + 0.5vw) sans-serif;
+    background-color: transparent;
+    font-weight: 500;
+    text-align: center;
+}
+.mainTextAnswer{
+    margin-top: 2vh;
+    color: rgb(32, 3, 3);
+    font: calc(14px + 0.5vw) sans-serif;
+    background-color: transparent;
+    font-weight: 800;
+    text-align: center;
+}
+
+.inputAnswer{
+    margin-top: 0.75vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1dvw;
+    width: calc(160px + 10vw);
+    height: calc(30px + 1.5vw);
+    border-color: transparent;
+    background-color: rgb(138, 70, 70);
+
+    /*текст поля ввода*/
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(14px + 0.75vw);
+    color: rgb(32, 3, 3);
+}
+
+.mainButton{
+    margin-top: 5vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(130px + 10vw);
+    height: calc(40px + 1.5vw);
+    background-color: rgb(165, 117, 117);
+    border-radius: 15px;
+}
+.sendButton{
+    margin-top: 3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(130px + 10vw);
+    height: calc(40px + 1.5vw);
+    background-color: rgb(165, 117, 117);
+    border-radius: 15px;
+}
+.hintButton{
+    margin-top: 15vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(130px + 10vw);
+    height: calc(40px + 1.5vw);
+    background-color: rgb(165, 117, 117);
+    border-radius: 15px;
+}
+.mainButton p, .sendButton p, .hintButton p{
+    user-select: none;
+    text-transform: uppercase;
+    font: calc(16px + 1vw) sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: rgb(32, 3, 3);
+}
+.mainButton:hover, .sendButton:hover, .hintButton:hover{
+    transition: all 0.3s;
+    background-color: rgb(165, 117, 117);
+}
+.mainButton:active, .sendButton:active, .hintButton:active{
+    transition: all 0.05s;
+    background-color: rgb(181, 136, 136);
+    transform: scale(0.95);
+}
+.errorMessage{
+    margin-top: 2vh;
+    display: none;
+}
+.errorMessage p{
+    color: rgb(60, 11, 11);
+    text-transform: uppercase;
+    font: calc(12px + 0.5vw) sans-serif;
+    background-color: transparent;
+    font-weight: 600;
+    text-align: center;
+}
+
+.userScore{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(130px + 10vw);
+    height: calc(40px + 1.5vw);
+    background-color: rgb(60, 11, 11);
+    border-radius: 15px;
+}
+.userScore p{
+    user-select: none;
+    text-transform: uppercase;
+    font: calc(16px + 1vw) sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: rgb(226, 208, 208);
+}
+
+
+/* FOOTER */
+.checkButton{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.6%;
+    height: 100%;
+    background-color: rgb(143, 132, 114);
+    border-radius: 5px;
+}
+.checkButton p{
+    user-select: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: white;
+}
+.checkButton:hover{
+    transition: all 0.3s;
+    background-color: rgb(155, 144, 126);
+}
+.checkButton:active{
+    transition: all 0.1s;
+    background-color: rgb(143, 132, 114);
+    transform: scale(0.95);
+    
+}
+
+/*конец главного блока*/
+.footer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(32, 3, 3);
+}
+.footer p{
+    color: rgb(226, 208, 208);
+    font: calc(18px + 1vw) sans-serif;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+}
