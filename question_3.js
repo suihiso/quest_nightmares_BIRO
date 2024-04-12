@@ -1,19 +1,28 @@
-const inputAnswer = document.querySelector(".inputAnswer");
-const sendButton = document.querySelector(".sendButton");
-const hintButton = document.querySelector(".hintButton");
-const errorMessage = document.getElementById("error");
+const aButton = document.getElementById("aButton");
+const bButton = document.getElementById("bButton");
+const cButton = document.getElementById("cButton");
+const dButton = document.getElementById("dButton");
 
-sendButton.addEventListener("click", function() {
-    if (inputAnswer.value != "" & inputAnswer.value == "да")
-        window.location.href = "question_4.html";
-    else {
-        errorMessage.style.display = "block";
-        setTimeout(function() {
-            errorMessage.style.display = "none";
-        }, 3000);
-    }
+var countScore = sessionStorage.getItem('countScore');
+
+aButton.addEventListener("click", function() {
+    countScore++;
+    goNextPage();
 });
 
-hintButton.addEventListener("click", function() {
-    window.alert("Текст подсказки");
+bButton.addEventListener("click", function() {
+    goNextPage();
 });
+
+cButton.addEventListener("click", function() {
+    goNextPage();
+});
+
+dButton.addEventListener("click", function() {
+    goNextPage();
+});
+
+function goNextPage() {
+    sessionStorage.setItem('countScore', countScore);
+    window.location.href = "question_4.html";
+}
