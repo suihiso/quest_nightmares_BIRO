@@ -58,7 +58,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(200px + 10vw);
+    width: calc(250px + 10vw);
     height: calc(50px + 1vh);
     background-color: rgb(188, 234, 234);
     border-radius: 15px;
@@ -69,7 +69,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(200px + 10vw);
+    width: calc(250px + 10vw);
     height: calc(80px + 2vh);
     background-color: rgb(188, 234, 234);
     border-radius: 15px;
@@ -103,7 +103,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(200px + 10vw);
+    width: calc(250px + 10vw);
     height: calc(50px + 1vh);
     background-color: rgb(28, 147, 147);
     border-radius: 15px;
@@ -115,7 +115,7 @@ a{
     font-weight: 700;
     letter-spacing: 1px;
     background-color: transparent;
-    color: rgb(226, 208, 208);
+    color: rgb(230, 240, 240);
 }
 
 /* FOOTER */
