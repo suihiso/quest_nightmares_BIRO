@@ -6,11 +6,11 @@ const dButton = document.getElementById("dButton");
 var countScore = sessionStorage.getItem('countScore');
 
 aButton.addEventListener("click", function() {
+    countScore++;
     goNextPage();
 });
 
 bButton.addEventListener("click", function() {
-    countScore++;
     goNextPage();
 });
 
@@ -24,5 +24,5 @@ dButton.addEventListener("click", function() {
 
 function goNextPage() {
     sessionStorage.setItem('countScore', countScore);
-    window.location.href = "question_6.html";
+    window.location.href = "question_9.html";
 }

@@ -10,7 +10,6 @@ aButton.addEventListener("click", function() {
 });
 
 bButton.addEventListener("click", function() {
-    countScore++;
     goNextPage();
 });
 
@@ -19,10 +18,11 @@ cButton.addEventListener("click", function() {
 });
 
 dButton.addEventListener("click", function() {
+    countScore++;
     goNextPage();
 });
 
 function goNextPage() {
     sessionStorage.setItem('countScore', countScore);
-    window.location.href = "question_6.html";
+    window.location.href = "question_7.html";
 }

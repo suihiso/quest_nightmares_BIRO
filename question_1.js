@@ -5,8 +5,7 @@ const dButton = document.getElementById("dButton");
 
 var countScore = 0;
 
-aButton.addEventListener("click", function() {
-    countScore++;
+aButton.addEventListener("click", function() { 
     goNextPage();
 });
 
@@ -15,6 +14,7 @@ bButton.addEventListener("click", function() {
 });
 
 cButton.addEventListener("click", function() {
+    countScore++;
     goNextPage();
 });
 

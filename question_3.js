@@ -6,7 +6,6 @@ const dButton = document.getElementById("dButton");
 var countScore = sessionStorage.getItem('countScore');
 
 aButton.addEventListener("click", function() {
-    countScore++;
     goNextPage();
 });
 
@@ -19,6 +18,7 @@ cButton.addEventListener("click", function() {
 });
 
 dButton.addEventListener("click", function() {
+    countScore++;
     goNextPage();
 });
 
