@@ -58,7 +58,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(250px + 10vh);
+    width: calc(250px + 10vw);
     height: calc(50px + 1vw);
     background-color: rgb(188, 234, 234);
     border-radius: 15px;
@@ -69,7 +69,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(250px + 10vh);
+    width: calc(250px + 10vw);
     height: calc(80px + 2vw);
     background-color: rgb(188, 234, 234);
     border-radius: 15px;
@@ -99,11 +99,10 @@ a{
 }
 
 .userScore{
-    margin-top: 3vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(250px + 10vh);
+    width: calc(250px + 10vw);
     height: calc(50px + 1vw);
     background-color: rgb(28, 147, 147);
     border-radius: 15px;
