@@ -82,7 +82,7 @@ a{
     user-select: none;
     text-transform: uppercase;
     text-align: center;
-    font: calc(14px + 0.5vw) sans-serif;
+    font: calc(16px + 0.5vw) sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     background-color: transparent;
