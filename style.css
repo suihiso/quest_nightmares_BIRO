@@ -59,7 +59,7 @@ a{
     justify-content: center;
     align-items: center;
     width: calc(165px + 20vw);
-    height: calc(80px + 2vh);
+    height: calc(50px + 2vh);
     background-color: rgb(186, 214, 215);
     border-radius: 15px;
 }
@@ -75,7 +75,10 @@ a{
     border-radius: 15px;
 }
 .sendButton p, .sendButtonBIG p{
-    padding: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
     user-select: none;
     text-transform: uppercase;
     text-align: center;
