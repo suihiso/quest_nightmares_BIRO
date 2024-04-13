@@ -58,8 +58,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(130px + 25vw);
-    height: calc(40px + 1.5vw);
+    width: calc(130px + 20vw);
+    height: calc(40px + 2vh);
     background-color: rgb(186, 214, 215);
     border-radius: 15px;
 }
@@ -69,8 +69,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(130px + 25vw);
-    height: calc(60px + 1.5vw);
+    width: calc(130px + 20vw);
+    height: calc(60px + 5vh);
     background-color: rgb(186, 214, 215);
     border-radius: 15px;
 }
