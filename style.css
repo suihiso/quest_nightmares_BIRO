@@ -58,25 +58,39 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(130px + 40vw);
+    width: calc(130px + 25vw);
     height: calc(40px + 1.5vw);
     background-color: rgb(186, 214, 215);
     border-radius: 15px;
 }
-.mainButton p, .sendButton p{
+.sendButtonBIG{
+    margin-top: 3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(130px + 25vw);
+    height: calc(40px + 3vw);
+    background-color: rgb(186, 214, 215);
+    border-radius: 15px;
+}
+.sendButton p, .sendButtonBIG p{
+    padding-left: 1vw;
+    padding-right: 1vw;
     user-select: none;
     text-transform: uppercase;
+    text-align: center;
     font: calc(16px + 0.5vw) sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     background-color: transparent;
     color: rgb(6, 92, 92);
 }
-.mainButton:hover, .sendButton:hover{
+.sendButton:hover, .sendButtonBIG:hover{
     transition: all 0.3s;
     background-color: rgb(186, 214, 215);
 }
-.mainButton:active, .sendButton:active{
+.sendButton:active, .sendButtonBIG:active{
     transition: all 0.05s;
     background-color: rgb(163, 212, 215);
     transform: scale(0.95);
