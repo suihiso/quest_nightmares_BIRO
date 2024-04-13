@@ -58,7 +58,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(130px + 20vw);
+    width: calc(150px + 20vw);
     height: calc(40px + 2vh);
     background-color: rgb(186, 214, 215);
     border-radius: 15px;
