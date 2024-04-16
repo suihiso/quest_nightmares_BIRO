@@ -24,5 +24,5 @@ dButton.addEventListener("click", function() {
 
 function goNextPage() {
     sessionStorage.setItem('countScore', countScore);
-    window.location.href = "question_11.html";
+    window.location.href = "quest_completed.html";
 }
