@@ -14,11 +14,11 @@ bButton.addEventListener("click", function() {
 });
 
 cButton.addEventListener("click", function() {
-    countScore++;
     goNextPage();
 });
 
 dButton.addEventListener("click", function() {
+    countScore++;
     goNextPage();
 });
 

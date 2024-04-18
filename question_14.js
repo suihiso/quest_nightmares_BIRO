@@ -10,11 +10,11 @@ aButton.addEventListener("click", function() {
 });
 
 bButton.addEventListener("click", function() {
+    countScore++;
     goNextPage();
 });
 
 cButton.addEventListener("click", function() {
-    countScore++;
     goNextPage();
 });
 
